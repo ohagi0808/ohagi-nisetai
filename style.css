@@ -121,6 +121,9 @@ a:hover { text-decoration: underline; }
   overflow: hidden;
   padding: 0;
   transition: box-shadow .2s;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 .card-thumb {
   width: 100%;
