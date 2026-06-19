@@ -155,7 +155,7 @@ a:hover { text-decoration: underline; }
 /* 記事サムネイル（記事ページ上部） */
 .article-thumb {
   width: 100%;
-  aspect-ratio: 16/9;
+  max-height: 320px;
   object-fit: cover;
   border-radius: 8px;
   display: block;
@@ -163,7 +163,7 @@ a:hover { text-decoration: underline; }
 }
 .article-thumb-placeholder {
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 280px;
   background: linear-gradient(135deg, #e8ddd0 0%, #c8a96a 100%);
   border-radius: 8px;
   display: flex;
