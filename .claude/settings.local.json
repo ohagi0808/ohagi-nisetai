@@ -23,7 +23,12 @@
       "Bash(mv articles/page_about.md articles/page_contact.md articles/page_disclaimer.md articles/page_privacy_policy.md pages/)",
       "Bash(mv articles/kanzenbunri-nisetai-towa.md articles/01-kanzenbunri-nisetai-towa.md)",
       "Bash(mv articles/tategata-sentakuki-denki-kansouki.md articles/02-tategata-sentakuki-denki-kansouki.md)",
-      "Bash(mv articles/shinkyo-shuunou.md articles/03-shinkyo-shuunou.md)"
+      "Bash(mv articles/shinkyo-shuunou.md articles/03-shinkyo-shuunou.md)",
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/about/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' about/index.html)",
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/privacy-policy/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' privacy-policy/index.html)",
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/disclaimer/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' disclaimer/index.html)",
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/contact/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' contact/index.html)",
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/articles/01-kanzenbunri-nisetai-towa/\">\\\\n  <link rel=\"stylesheet\" href=\"../../style.css\">|' articles/01-kanzenbunri-nisetai-towa/index.html)"
     ]
   }
 }
