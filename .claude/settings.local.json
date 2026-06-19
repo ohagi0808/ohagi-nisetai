@@ -28,7 +28,8 @@
       "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/privacy-policy/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' privacy-policy/index.html)",
       "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/disclaimer/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' disclaimer/index.html)",
       "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/contact/\">\\\\n  <link rel=\"stylesheet\" href=\"../style.css\">|' contact/index.html)",
-      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/articles/01-kanzenbunri-nisetai-towa/\">\\\\n  <link rel=\"stylesheet\" href=\"../../style.css\">|' articles/01-kanzenbunri-nisetai-towa/index.html)"
+      "Bash(sed -i 's|<link rel=\"stylesheet\" href=\"../../style.css\">|<link rel=\"canonical\" href=\"https://ohagi0808.github.io/ohagi-nisetai/articles/01-kanzenbunri-nisetai-towa/\">\\\\n  <link rel=\"stylesheet\" href=\"../../style.css\">|' articles/01-kanzenbunri-nisetai-towa/index.html)",
+      "Bash(xargs sed -i 's|<meta charset=\"UTF-8\">|<meta charset=\"UTF-8\">\\\\n  <meta name=\"google-site-verification\" content=\"qY8Sl_SHR25Fzn-qlmfX3_cTDyDU2aF7zGgNU__rEGk\">|')"
     ]
   }
 }
