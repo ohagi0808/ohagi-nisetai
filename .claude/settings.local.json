@@ -2,7 +2,22 @@
   "permissions": {
     "allow": [
       "PowerShell(gh auth status 2>&1)",
-      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\GitHub CLI;\" + $env:PATH; gh --version)"
+      "PowerShell($env:PATH = \"C:\\\\Program Files\\\\GitHub CLI;\" + $env:PATH; gh --version)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)",
+      "Bash(dir /b *.md)",
+      "Bash(gh api *)",
+      "Bash(git checkout *)",
+      "Bash(git branch *)",
+      "mcp__visualize__read_me",
+      "mcp__visualize__show_widget",
+      "Bash(mkdir -p _src)",
+      "Bash(mv HANDOFF_faq_css.md HANDOFF_to_claude_code.md HANDOFF_to_claude_code_v2.md affiliate_link_map.md page_about.md page_contact.md page_disclaimer.md page_privacy_policy.md spec_master_list.md kanzenbunri-nisetai-towa.md tategata-sentakuki-denki-kansouki.md shinkyo-shuunou.md faq-style.css _src/)",
+      "Bash(mv kanzenbunri-nisetai-towa *)",
+      "Bash(mv tategata-sentakuki-denki-kansouki *)",
+      "Bash(mv shinkyo-shuunou *)",
+      "Bash(xargs sed -i -e 's|kanzenbunri-nisetai-towa/|01-kanzenbunri-nisetai-towa/|g' -e 's|tategata-sentakuki-denki-kansouki/|02-tategata-sentakuki-denki-kansouki/|g' -e 's|shinkyo-shuunou/|03-shinkyo-shuunou/|g')"
     ]
   }
 }
