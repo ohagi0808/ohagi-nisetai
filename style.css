@@ -118,17 +118,61 @@ a:hover { text-decoration: underline; }
   background: #fff;
   border: 1px solid var(--border);
   border-radius: 8px;
-  padding: 1.2rem;
+  overflow: hidden;
+  padding: 0;
   transition: box-shadow .2s;
 }
+.card-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  display: block;
+}
+.card-thumb-placeholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: linear-gradient(135deg, #e8ddd0 0%, #c8a96a 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7a5c3e;
+  font-size: .8rem;
+  letter-spacing: .05em;
+}
+.card-body {
+  padding: 1.2rem;
+}
 .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,.08); }
-.card h3 { font-size: 1rem; margin-bottom: .5rem; }
-.card p { font-size: .87rem; color: var(--muted); }
+.card-body h3 { font-size: 1rem; margin-bottom: .5rem; }
+.card-body p { font-size: .87rem; color: var(--muted); }
 .card a.card-link {
   display: inline-block;
   margin-top: .8rem;
   font-size: .85rem;
   font-weight: 600;
+}
+
+/* 記事サムネイル（記事ページ上部） */
+.article-thumb {
+  width: 100%;
+  aspect-ratio: 16/9;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 1.5rem;
+}
+.article-thumb-placeholder {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background: linear-gradient(135deg, #e8ddd0 0%, #c8a96a 100%);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7a5c3e;
+  font-size: .85rem;
+  letter-spacing: .05em;
+  margin-bottom: 1.5rem;
 }
 
 /* フッター */
