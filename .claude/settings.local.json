@@ -17,7 +17,9 @@
       "Bash(mv kanzenbunri-nisetai-towa *)",
       "Bash(mv tategata-sentakuki-denki-kansouki *)",
       "Bash(mv shinkyo-shuunou *)",
-      "Bash(xargs sed -i -e 's|kanzenbunri-nisetai-towa/|01-kanzenbunri-nisetai-towa/|g' -e 's|tategata-sentakuki-denki-kansouki/|02-tategata-sentakuki-denki-kansouki/|g' -e 's|shinkyo-shuunou/|03-shinkyo-shuunou/|g')"
+      "Bash(xargs sed -i -e 's|kanzenbunri-nisetai-towa/|01-kanzenbunri-nisetai-towa/|g' -e 's|tategata-sentakuki-denki-kansouki/|02-tategata-sentakuki-denki-kansouki/|g' -e 's|shinkyo-shuunou/|03-shinkyo-shuunou/|g')",
+      "Bash(mkdir -p articles)",
+      "Bash(mv 01-kanzenbunri-nisetai-towa 02-tategata-sentakuki-denki-kansouki 03-shinkyo-shuunou articles/)"
     ]
   }
 }
