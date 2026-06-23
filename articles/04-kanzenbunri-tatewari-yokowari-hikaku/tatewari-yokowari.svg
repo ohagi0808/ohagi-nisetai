@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="縦割りと横割りの二世帯住宅の違いを示す図。縦割りは建物を左右に分け、各世帯が1階から上階までを使う。横割りは1階を親世帯、2階以上を子世帯に分ける。">
+  <defs>
+    <style>
+      .ttl{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:22px;font-weight:700;fill:#33312e;}
+      .lbl{font-family:'Hiragino Kaku Gothic ProN','Yu Gothic',sans-serif;font-size:15px;font-weight:700;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="360" fill="#fdfbf7"/>
+
+  <!-- ============ 縦割り（左） ============ -->
+  <g>
+    <rect x="34" y="20" width="280" height="30" rx="15" fill="#f0e4d3"/>
+    <text class="ttl" x="174" y="42" text-anchor="middle">縦割り</text>
+
+    <!-- roof -->
+    <polygon points="60,128 174,86 174,128" fill="#c9a26a"/>
+    <polygon points="174,128 174,86 288,128" fill="#c9a26a" opacity="0.85"/>
+    <rect x="55" y="124" width="238" height="8" fill="#a8784a"/>
+
+    <!-- body -->
+    <rect x="64" y="132" width="105" height="190" fill="#f3e1cf"/>
+    <rect x="179" y="132" width="105" height="190" fill="#d7e6e4"/>
+
+    <!-- center seam -->
+    <rect x="172" y="86" width="6" height="236" fill="#fdfbf7"/>
+    <line x1="174" y1="86" x2="174" y2="322" stroke="#b8a98c" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+    <!-- windows -->
+    <rect x="84" y="170" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="130" y="170" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="84" y="240" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+    <rect x="130" y="240" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+
+    <rect x="197" y="170" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="243" y="170" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="197" y="240" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+    <rect x="243" y="240" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+
+    <!-- doors -->
+    <rect x="100" y="284" width="34" height="38" rx="2" fill="#b9824a"/>
+    <rect x="213" y="284" width="34" height="38" rx="2" fill="#7fa89d"/>
+
+    <!-- labels inside building -->
+    <rect x="82" y="214" width="72" height="26" rx="13" fill="#6b4f2e" stroke="#523a1f" stroke-width="1"/>
+    <text class="lbl" x="118" y="232" text-anchor="middle" fill="#fdfbf7">親世帯</text>
+    <rect x="196" y="214" width="72" height="26" rx="13" fill="#3d6b62" stroke="#2c4f48" stroke-width="1"/>
+    <text class="lbl" x="232" y="232" text-anchor="middle" fill="#fdfbf7">子世帯</text>
+
+    <!-- ground -->
+    <rect x="40" y="322" width="268" height="6" fill="#d8cdb8"/>
+  </g>
+
+  <!-- divider -->
+  <line x1="360" y1="30" x2="360" y2="340" stroke="#e3dccb" stroke-width="1"/>
+
+  <!-- ============ 横割り（右） ============ -->
+  <g>
+    <rect x="406" y="20" width="280" height="30" rx="15" fill="#e0ebe8"/>
+    <text class="ttl" x="546" y="42" text-anchor="middle">横割り</text>
+
+    <polygon points="432,128 546,86 660,128" fill="#c9a26a"/>
+    <rect x="427" y="124" width="238" height="8" fill="#a8784a"/>
+
+    <!-- upper = child -->
+    <rect x="436" y="132" width="220" height="92" fill="#d7e6e4"/>
+    <!-- lower = parent -->
+    <rect x="436" y="230" width="220" height="92" fill="#f3e1cf"/>
+
+    <!-- floor seam -->
+    <rect x="436" y="221" width="220" height="6" fill="#fdfbf7"/>
+    <line x1="436" y1="224" x2="656" y2="224" stroke="#b8a98c" stroke-width="1.5" stroke-dasharray="4 4"/>
+
+    <!-- windows upper -->
+    <rect x="456" y="152" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="502" y="152" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="566" y="152" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+    <rect x="612" y="152" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.9"/>
+
+    <!-- windows lower -->
+    <rect x="456" y="250" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+    <rect x="502" y="250" width="26" height="32" rx="3" fill="#fdfbf7" opacity="0.7"/>
+
+    <!-- door lower (parent, ground access) -->
+    <rect x="586" y="284" width="34" height="38" rx="2" fill="#b9824a"/>
+
+    <!-- labels inside building -->
+    <rect x="466" y="169" width="160" height="26" rx="13" fill="#3d6b62" stroke="#2c4f48" stroke-width="1"/>
+    <text class="lbl" x="546" y="187" text-anchor="middle" fill="#fdfbf7">子世帯（2F以上）</text>
+    <rect x="486" y="252" width="120" height="26" rx="13" fill="#6b4f2e" stroke="#523a1f" stroke-width="1"/>
+    <text class="lbl" x="546" y="270" text-anchor="middle" fill="#fdfbf7">親世帯（1F）</text>
+
+    <rect x="412" y="322" width="268" height="6" fill="#d8cdb8"/>
+  </g>
+</svg>
