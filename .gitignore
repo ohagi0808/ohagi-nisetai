@@ -1,5 +1,5 @@
-spec_master_list.md
-HANDOFF_to_claude_code.md
+# 非公開の運営用メモ（個人情報・運用資料）。公開リポジトリには入れない。
+_src/
 
 # ローカル個人設定・ツール設定（本番には載せない）
 .claude/settings.local.json
