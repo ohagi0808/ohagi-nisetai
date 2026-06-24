@@ -1,2 +1,6 @@
 spec_master_list.md
 HANDOFF_to_claude_code.md
+
+# ローカル個人設定・ツール設定（本番には載せない）
+.claude/settings.local.json
+.claude/launch.json
