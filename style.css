@@ -416,6 +416,34 @@ li:has(.list-label--caution) {
 .card:hover { box-shadow: 0 3px 12px rgba(0,0,0,.08); }
 .card-body h3 { font-size: 1rem; margin-bottom: .5rem; }
 .card-body p { font-size: .87rem; color: var(--muted); }
+
+/* 記事一覧ページ：横長カード（サムネイル左・本文右） */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.2rem;
+}
+.article-list .card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+.article-list .card-thumb {
+  width: 40%;
+  max-width: 240px;
+  aspect-ratio: 16/10;
+  flex-shrink: 0;
+}
+.article-list .card-body {
+  flex: 1;
+  align-self: center;
+  padding: 1rem 1.2rem;
+}
+@media (max-width: 560px) {
+  .article-list .card-thumb { width: 36%; }
+  .article-list .card-body { padding: .7rem .85rem; }
+}
 .card a.card-link {
   display: inline-block;
   margin-top: .8rem;
